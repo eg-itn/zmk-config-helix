@@ -1,6 +1,7 @@
 include:
   - board: nice_nano//zmk
     shield: helix_left
-    snippet: studio-rpc-usb-uart
+    # snippet: studio-rpc-usb-uart
+    # cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano//zmk
     shield: helix_right
